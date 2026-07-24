@@ -1,0 +1,16 @@
+{
+  "name": "req-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ReqLab — Web-Based HTTP API Client (Postman-like)",
+  "scripts": {
+    "install:all": "npm install --legacy-peer-deps",
+    "build:api": "cd apps/api && npm run build",
+    "build:web": "cd apps/web && node ../../node_modules/@angular/cli/bin/ng.js build",
+    "build": "npm run build:api && npm run build:web",
+    "build:css": "node scripts/build-css.js apps/web/src/styles.css"
+  },
+  "workspaces": [
+    "apps/*"
+  ]
+}
