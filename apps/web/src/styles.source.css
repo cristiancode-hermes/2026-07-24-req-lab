@@ -28,25 +28,25 @@
   --color-surface: #ffffff;
   --color-surface-secondary: #f9fafb;
   --color-surface-tertiary: #f3f4f6;
-  --color-ink: #111827;
-  --color-ink-secondary: #4b5563;
-  --color-ink-tertiary: #9ca3af;
-  --color-border: #e5e7eb;
-  --color-border-light: #f3f4f6;
+  --color-ink: #134e4a;
+  --color-ink-secondary: #4e6b69;
+  --color-ink-tertiary: #758a88;
+  --color-border: #dfebe8;
+  --color-border-light: #e9f5f2;
 
-  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-sans: 'IBM Plex Mono', 'Courier New', monospace;
   --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
 }
 
 .dark {
-  --color-surface: #030712;
+  --color-surface: #ffffff;
   --color-surface-secondary: #111827;
   --color-surface-tertiary: #1f2937;
-  --color-ink: #f9fafb;
-  --color-ink-secondary: #d1d5db;
-  --color-ink-tertiary: #6b7280;
-  --color-border: #374151;
-  --color-border-light: #1f2937;
+  --color-ink: #134e4a;
+  --color-ink-secondary: #4e6b69;
+  --color-ink-tertiary: #758a88;
+  --color-border: #dfebe8;
+  --color-border-light: #e9f5f2;
 }
 
 /* ── Base Styles ── */
