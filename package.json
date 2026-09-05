@@ -4,13 +4,14 @@
   "private": true,
   "description": "ReqLab — Web-Based HTTP API Client (Postman-like)",
   "scripts": {
-    "install:all": "npm install --legacy-peer-deps",
-    "build:api": "cd apps/api && npm run build",
+    "install:all": "pnpm install --legacy-peer-deps",
+    "build:api": "cd apps/api && pnpm run build",
     "build:web": "cd apps/web && node ../../node_modules/@angular/cli/bin/ng.js build",
-    "build": "npm run build:api && npm run build:web",
+    "build": "pnpm run build:api && pnpm run build:web",
     "build:css": "node scripts/build-css.js apps/web/src/styles.css"
   },
   "workspaces": [
     "apps/*"
-  ]
+  ],
+  "packageManager": "pnpm@10.34.5"
 }

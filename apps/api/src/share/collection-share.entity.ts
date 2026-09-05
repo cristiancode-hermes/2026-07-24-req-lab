@@ -25,7 +25,7 @@ export class CollectionShare {
   @Column({ length: 64, unique: true })
   shareToken: string;
 
-  @Column({ nullable: true })
+  @Column({ nullable: true, type: 'datetime' })
   expiresAt: Date | null;
 
   @CreateDateColumn()

@@ -28,7 +28,7 @@ export class Collection {
   @JoinColumn({ name: 'workspaceId' })
   workspace: Workspace;
 
-  @Column({ nullable: true })
+  @Column({ nullable: true, type: 'text' })
   parentId: string | null;
 
   @ManyToOne(() => Collection, { nullable: true, onDelete: 'SET NULL' })

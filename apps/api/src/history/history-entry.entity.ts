@@ -24,7 +24,7 @@ export class HistoryEntry {
   @JoinColumn({ name: 'workspaceId' })
   workspace: Workspace;
 
-  @Column({ nullable: true })
+  @Column({ nullable: true, type: 'text' })
   requestId: string | null;
 
   @Column()
